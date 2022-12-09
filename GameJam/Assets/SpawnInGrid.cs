@@ -42,9 +42,9 @@ public class SpawnInGrid : MonoBehaviour
 
                 if (!iterate)
                 {
-                   // Instantiate(cube,
-                   //     new Vector3(gameObject.transform.position.x + C + num, 0, gameObject.transform.position.z + C +num),
-                   //     Quaternion.identity);
+                    Instantiate(cube,
+                        new Vector3(gameObject.transform.position.x + C + num, 0, gameObject.transform.position.z + C +num),
+                        Quaternion.identity);
                     iterate = true;
                 }
 
